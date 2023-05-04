@@ -105,3 +105,9 @@ function getProjTypes(request, response) {
 
 }
 
+app.post('/ripla-save-report', saveRiplaReport);
+function saveRiplaReport(request, response) {
+    // Returns all phases
+    response.send('Ripla report saved!');
+}
+
