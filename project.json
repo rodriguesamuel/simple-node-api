@@ -18,5 +18,11 @@
     "description": "Validação das informações",
     "id": 3
   },
-  "vegetalSuppression": "Sim"
+  "vegetalSuppression": "Sim",
+  "emergence": "Sim",
+  "riplaNumber": "123456455",
+  "type": {
+    "id": 1,
+    "description": "Demanda"
+  }
 }
