@@ -1,0 +1,83 @@
+{
+  "id": 1,
+  "name": "Termo de Referência",
+  "protocolNumber": 8474857943859,
+  "responsible": {
+    "id": 3,
+    "name": "Jack"
+  },
+  "demandType": {
+    "id": 1,
+    "description": "Termo de referência"
+  },
+  "studyType": {
+    "id": 1,
+    "description": "EIA/RIMA"
+  },
+  "comments": "some comments...",
+  "actionPhases": [
+    {
+      "id": 1,
+      "user": {
+        "id": 3,
+        "name": "Jack"
+      },
+      "registrationDate": "2024-06-23T19:14:17.314Z",
+      "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "demandStep": {
+        "id": 1,
+        "description": "Proposta de TR Final"
+      },
+      "attachments": [
+        {
+          "id": 3,
+          "description": "Proposta de TR Final",
+          "name": "Termo_de_referencia.pdf",
+          "user": {
+            "id": 3,
+            "name": "Bruce"
+          },
+          "date": "2024-06-23T19:14:17.314Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 3,
+        "name": "Jack"
+      },
+      "registrationDate": "2024-06-23T19:14:17.314Z",
+      "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "demandStep": {
+        "id": 2,
+        "description": "Validação e confirmação de envio para o governo"
+      }
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 3,
+        "name": "Jack"
+      },
+      "registrationDate": "2024-06-23T19:14:17.314Z",
+      "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "demandStep": {
+        "id": 2,
+        "description": "Proposta de TR cadastrada"
+      },
+      "attachments": [
+        {
+          "id": 3,
+          "description": "Proposta de TR cadastrada",
+          "name": "Termo_de_referencia.pdf",
+          "user": {
+            "id": 3,
+            "name": "Bruce"
+          },
+          "date": "2024-06-23T19:14:17.314Z"
+        }
+      ]
+    }
+  ]
+}

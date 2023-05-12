@@ -11,6 +11,7 @@ var installationsJson = fs.readFileSync('installations.json');
 var projTypesJson = fs.readFileSync('projTypes.json');
 var corridorsJson = fs.readFileSync('corridors.json');
 var complexesJson = fs.readFileSync('complex.json');
+var demandJson = fs.readFileSync('demand.json');
 
 var elements = JSON.parse(data);
 var projectData = JSON.parse(project);
@@ -22,6 +23,8 @@ var instalationsData = JSON.parse(installationsJson);
 var projTypesData = JSON.parse(projTypesJson);
 var corridorsData = JSON.parse(corridorsJson);
 var complexesData = JSON.parse(complexesJson);
+var demandData = JSON.parse(demandJson);
+
 const express = require("express");
 const app = express();
 
@@ -149,4 +152,18 @@ function getComplexes(request, response) {
         response.send(complexesData);
     }, delay);
 
+}
+
+app.post('/demand-save-tr-proposal', saveTrProposal);
+
+function saveTrProposal(request, response) {
+    // Returns all phases
+    response.status(200).send({message: 'OK'})
+}
+
+
+app.get('/demand/:id/', getDemand);
+
+function getDemand(request, response) {
+    response.send(demandData);
 }
