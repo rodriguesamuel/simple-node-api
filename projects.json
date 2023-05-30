@@ -12,8 +12,9 @@
   "expansion": "Sim",
   "id": 15,
   "interventionWaterResource": "Sim",
-  "operationsDate": "2024-06-23T19:14:17.314Z",
-  "projectName": "Cobertura Quadra Jari",
+  "operationDate": "2024-06-23T19:14:17.314Z",
+  "name": "Cobertura Quadra Jari",
+  "protocolNumber": "123456455",
   "phase": {
     "description": "Validação das informações",
     "id": 2
@@ -33,8 +34,9 @@
   "expansion": "Não",
   "id": 15,
   "interventionWaterResource": "Não",
-  "operationsDate": "2024-06-23T19:14:17.314Z",
-  "projectName": "Projeto de Teste",
+  "operationDate": "2024-06-23T19:14:17.314Z",
+  "name": "Projeto de Teste",
+  "protocolNumber": "123456455",
   "phase": {
     "description": "Validação das informações",
     "id": 2

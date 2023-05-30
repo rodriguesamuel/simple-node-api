@@ -14,15 +14,15 @@
   "expansion": "Sim",
   "id": 15,
   "interventionWaterResource": "Sim",
-  "operationsDate": "2024-06-23T19:14:17.314Z",
-  "projectName": "Cobertura Quadra Jari",
+  "operationDate": "2024-06-23T19:14:17.314Z",
+  "name": "Cobertura Quadra Jari",
   "phase": {
     "description": "Validação das informações",
     "id": 3
   },
   "vegetalSuppression": "Sim",
   "emergence": "Sim",
-  "riplaNumber": "123456455",
+  "protocolNumber": "123456455",
   "type": {
     "id": 1,
     "description": "Demanda"

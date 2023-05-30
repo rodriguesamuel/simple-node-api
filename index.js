@@ -63,7 +63,11 @@ app.get('/project-history/:id/', getHistory);
 
 function getHistory(request, response) {
     // Returns all phases
-    response.send(historyLogData);
+    const delay = 2000;
+    setTimeout(function () {
+        response.send(historyLogData);
+    }, delay);
+
 }
 
 app.get('/processes', getProcess);
@@ -166,4 +170,11 @@ app.get('/demand/:id/', getDemand);
 
 function getDemand(request, response) {
     response.send(demandData);
+}
+
+app.post('/demand/:id/save-revision-tr', saveTrRevision);
+
+function saveTrRevision(request, response) {
+    // Returns all phases
+    response.status(200).send({message: 'OK'})
 }
